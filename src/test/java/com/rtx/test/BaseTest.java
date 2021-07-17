@@ -22,7 +22,7 @@ public class BaseTest {
         FileInputStream file = new FileInputStream("Pagedata/browserdata.properties");
         Properties properties = new Properties();
         properties.load(file);
-
+        
         String getBrowser = System.getProperty("browser");
 
         if (getBrowser.equalsIgnoreCase("chrome")) {

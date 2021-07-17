@@ -36,9 +36,6 @@ public class WomanPage extends LoadableComponent<WomanPage>{
         return new MenPage(driver);
     }
 
-
-
-
     @Override
     protected void load() {
         VerifyPages verifyPages = new VerifyPages(driver);
